@@ -2,7 +2,6 @@
   "name": "shop-fashion",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tuan-tung.github.io/TandT_shop/",
   "dependencies": {
     "@ant-design/icons": "^4.6.2",
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
