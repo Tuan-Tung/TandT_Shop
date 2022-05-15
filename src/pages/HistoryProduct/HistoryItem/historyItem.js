@@ -68,7 +68,6 @@ const HistoryItem = (props) => {
                     </div>
                     <div className="history__button mr">
                         <Button onClick={() => onDelete(value._id)} className="history__button--cancel" type="primary" danger>X Hủy Đơn Hàng</Button>
-                        <Button className="history__button--edit" type="primary" >Chỉnh Sửa</Button>
                     </div>
                 </div>
             )

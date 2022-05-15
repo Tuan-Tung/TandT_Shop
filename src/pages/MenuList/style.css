@@ -8,6 +8,9 @@
 .all__product{
     min-height: 30rem;
 }
+.filter_content{
+    padding: 16px 7rem;
+}
 .filter,
 .filter__right {
     display: flex;

@@ -1,14 +1,14 @@
+import { StarFilled } from '@ant-design/icons'
 import React, { useEffect, useState } from 'react'
-import './style.css'
-import productApi from '../../api/productApi'
-import Slider from 'react-slick'
+import { useDispatch } from 'react-redux'
 import { Link } from 'react-router-dom'
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import { ShoppingCartOutlined, SearchOutlined, ReloadOutlined, HeartOutlined, StarFilled } from '@ant-design/icons'
+import Slider from 'react-slick'
+import "slick-carousel/slick/slick-theme.css"
+import "slick-carousel/slick/slick.css"
 import { ProductData } from '../../action'
-import {useDispatch} from 'react-redux'
+import productApi from '../../api/productApi'
 import LoadingProduct from '../Loading/lodingProduct'
+import './style.css'
 
 const ProductSale = () => {
     const [product, setProduct] = useState([])
@@ -47,19 +47,16 @@ const ProductSale = () => {
             money = money.toLocaleString('vi', { style: 'currency', currency: 'VND' })
             return (
                 <div key={index} className="product__items">
+                    <Link onClick={() => onDetailProduct(value._id)} to={`/products/${value.slug}`} className="product__button--list">
                     <div className="product__item__img">
                         <div className="product__content__img">
                             <img className="img--before" src={value.productImage[0].img} alt="" />
                             <img className="img--after" src={value.productImage[1].img} alt="" />
                         </div>
                         <div className="product__img--title">Giảm {value.sale}%</div>
-                        <ul className="product__button">
-                            <li className="product__button--list"><ShoppingCartOutlined /></li>
-                            <Link onClick={() => onDetailProduct(value._id)} to={`/products/${value.slug}`} className="product__button--list"><SearchOutlined /></Link>
-                            <li className="product__button--list"><ReloadOutlined /></li>
-                            <li className="product__button--list"><HeartOutlined /></li>
-                        </ul>
+                        
                     </div>
+                    </Link>
                     <Link onClick={() => onDetailProduct(value._id)} to={`/products/${value.slug}`} className="product__item__title">{value.title}</Link>
                     <div className="product__item__rating">
                         <StarFilled className="rating--th1" />
