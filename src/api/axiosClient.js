@@ -4,7 +4,7 @@ import queryString from 'query-string'
 
 
 const axiosClient = axios.create({
-    baseURL: 'https://haoshop02.herokuapp.com',
+    baseURL: 'https://server-indol-nine.vercel.app',
     headers: {
         'content-type':'application/json',
         'Authorization': ''
