@@ -77,7 +77,7 @@ const Footer = () => {
                                     <Link to="/"><PhoneOutlined className="footer__icon nth-2" /> Số điện thoại: 0964572402</Link>
                                 </li>
                                 <li className="footer__list__item">
-                                    <Link to="/"><MailOutlined className="footer__icon" /> Email: hao2016vt@gmail.com</Link>
+                                    <Link to="/"><MailOutlined className="footer__icon" /> Email: TandTShop@gmail.com</Link>
                                 </li>
                             </ul>
                         </div>
