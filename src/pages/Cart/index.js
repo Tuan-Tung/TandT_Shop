@@ -149,7 +149,7 @@ const Cart = () => {
                       {value.title}
                     </Link>
                     <p>Sale: {value.sale}%</p>
-                    <p>Size: {value.size}</p>
+                    {/* <p>Size: {value.size}</p> */}
                   </div>
                   <div className="col-xl-6 cart__icon--end">
                     <div className="cart__quantity">

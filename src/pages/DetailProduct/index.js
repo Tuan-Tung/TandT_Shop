@@ -137,15 +137,16 @@ const DetailProduct = () => {
                               </div>
                               <div className="detail__price">{money}</div>
                               <div className="detail__size">
-                                 <h3>Size:</h3>
+                                 {/* <h3>Size:</h3>
                                  <ul className="detail__size__item">
                                     {showSize(productData.sizeProduct)}
-                                 </ul>
+                                 </ul> */}
 
                               </div>
                               <div className="detail__product__buy">
                                  {loading ?
-                                    <button onClick={() => onBuy(productData, sizeProducts)} className="detail__buy"><ShoppingCartOutlined /> MUA HÀNG</button>
+                                    <button className="detail__buy"><ShoppingCartOutlined /> MUA HÀNG</button>
+                                    // <button onClick={() => onBuy(productData, sizeProducts)} className="detail__buy"><ShoppingCartOutlined /> MUA HÀNG</button>
                                     :
                                     <LoadingButton />
                                  }
@@ -169,7 +170,7 @@ const DetailProduct = () => {
                      <div className="detail__prodct__bottom">
                         <h4 className="detail__bottom--title">Hình ảnh chi tiết
                      <Link to={`/san-pham/${productData.slug}`}>{productData.slug}</Link>
-                     được chụp tại T$T-Shop
+                     được chụp tại Đình Tuấn Store
                   </h4>
                         <ul className="detail__bottom">
                            {showImageFoot(productData.productImage)}

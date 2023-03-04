@@ -11,7 +11,7 @@ const showCheckOrder = (productOrder) => {
         money = money.toLocaleString('vi', { style: 'currency', currency: 'VND' })
         return (
             <li key={index} className="checkout__list--item order--item">
-                <span>{value.title}/ size: {value.size}/<CloseOutlined /> {value.qty} </span>
+                {/* <span>{value.title}/ size: {value.size}/<CloseOutlined /> {value.qty} </span> */}
                 <span className="money">{money}</span>
             </li>
         )

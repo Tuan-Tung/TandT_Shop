@@ -60,7 +60,7 @@
 }
 .banner__right__bg img{
     width: 100%;
-    transform: rotate(-30deg);
+    /* transform: rotate(-30deg); */
     background-image: none;
    
 }  

@@ -20,7 +20,7 @@ const Footer = () => {
                                     <Link to="/">Số điện thoại: 0964572402</Link>
                                 </li>
                                 <li className="footer__list__item">
-                                    <Link to="/">Email: hao2016vt@gmail.com</Link>
+                                    <Link to="/">Email: dinhtuan@gmail.com</Link>
                                 </li>
                             </ul>
                         </div>
@@ -30,7 +30,7 @@ const Footer = () => {
                         <div className="footer__content">
                             <ul className="footer__list">
                                 <li className="footer__list__item">
-                                    <Link to="/">Hướng dẫn chọn cỡ giày</Link>
+                                    <Link to="/">Hướng dẫn chọn mẫu điện thoại</Link>
                                 </li>
                                 <li className="footer__list__item">
                                     <Link to="/">Chính sách đổi trả/ hoàn tiền</Link>

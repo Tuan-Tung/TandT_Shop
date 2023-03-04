@@ -236,13 +236,12 @@ const Header = () => {
           <nav className="nav">
             <div className="header__mid__left">
               <Link className="header__logo" to="/">
-                <span>T</span>
-                <span>{"&"}</span>
-                <span>T</span>
-                <span>S</span>
-                <span>H</span>
-                <span>O</span>
-                <span>P</span>
+                <span>ĐÌNH</span>
+                <span> </span>
+                <span>TUẤN</span>
+                <span> </span>
+                <span>STORE</span>
+               
               </Link>
             </div>
             <div className="header__mid__right">
