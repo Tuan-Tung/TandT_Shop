@@ -4,7 +4,7 @@ import queryString from 'query-string'
 
 
 const axiosClient = axios.create({
-    baseURL: 'https://server-indol-nine.vercel.app',
+    baseURL: 'http://localhost:5000',
     headers: {
         'content-type':'application/json',
         'Authorization': ''

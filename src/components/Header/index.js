@@ -236,9 +236,7 @@ const Header = () => {
           <nav className="nav">
             <div className="header__mid__left">
               <Link className="header__logo" to="/">
-                <span>ĐÌNH</span>
-                <span> </span>
-                <span>TUẤN</span>
+                <span>ANH</span>
                 <span> </span>
                 <span>STORE</span>
                

@@ -8,17 +8,17 @@ const Sevice = () => {
                 <div className="row">
                     <div className="col-xl-4 col-lg-4 col-md-6 service__content">
                         <div className="service__item">
-                            <img src="https://res.cloudinary.com/dkzpakm7v/image/upload/v1677917322/samples/anh/img/baiviet-flash-sale-iphone-gia-khong-tuong_adzrvh.png" alt="" />
+                            <img src="https://res.cloudinary.com/dkzpakm7v/image/upload/v1620633369/samples/anh/img/service3_z3xh8t.jpg" alt="" />
                         </div>
                     </div>
                     <div className="col-xl-4 col-lg-4 col-md-6 service__content">
                         <div className="service__item">
-                            <img src="https://res.cloudinary.com/dkzpakm7v/image/upload/v1677917321/samples/anh/img/iphone-gia-re-sale-tai-hai-phong_06f86ecdbb134c1994973461ff9296a6_g5hg4d.webp" alt="" />
+                            <img src="https://res.cloudinary.com/dkzpakm7v/image/upload/v1620633369/samples/anh/img/service1_r0zlum.jpg" alt="" />
                         </div>
                     </div>
                     <div className="col-xl-4 col-lg-4 col-md-6 service__content">
                         <div className="service__item">
-                            <img src="https://res.cloudinary.com/dkzpakm7v/image/upload/v1677917323/samples/anh/img/xtm-tt-sale-iphone-22-11_seekqb.jpg" alt="" />
+                            <img src="https://res.cloudinary.com/dkzpakm7v/image/upload/v1620633369/samples/anh/img/service2_hmfgph.jpg" alt="" />
                         </div>
                     </div>
                 </div>
