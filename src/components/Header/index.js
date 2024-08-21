@@ -237,8 +237,8 @@ const Header = () => {
             <div className="header__mid__left">
               <Link className="header__logo" to="/">
                 <span>ANH</span>
-                <span> </span>
-                <span>STORE</span>
+                <span>'</span>
+                <span>SHOES</span>
                
               </Link>
             </div>

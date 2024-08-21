@@ -30,7 +30,7 @@ const Footer = () => {
                         <div className="footer__content">
                             <ul className="footer__list">
                                 <li className="footer__list__item">
-                                    <Link to="/">Hướng dẫn chọn mẫu điện thoại</Link>
+                                    <Link to="/">Hướng dẫn chọn mẫu giày</Link>
                                 </li>
                                 <li className="footer__list__item">
                                     <Link to="/">Chính sách đổi trả/ hoàn tiền</Link>
@@ -77,7 +77,7 @@ const Footer = () => {
                                     <Link to="/"><PhoneOutlined className="footer__icon nth-2" /> Số điện thoại: 0964572402</Link>
                                 </li>
                                 <li className="footer__list__item">
-                                    <Link to="/"><MailOutlined className="footer__icon" /> Email: TandTShop@gmail.com</Link>
+                                    <Link to="/"><MailOutlined className="footer__icon" /> Email: AnhShoes@gmail.com</Link>
                                 </li>
                             </ul>
                         </div>
